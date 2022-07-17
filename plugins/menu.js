@@ -224,11 +224,11 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
    {
 	title: `${htki} MAIN ${htka}`,
 	rows: [
-	    {title: `📛 ${pmenus} INFO BOT`, rowId: ".info", description: "Menampilkan kecepatan respon Fangz BOT"},
-	    {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner Fangz BOT"},
+	    {title: `📛 ${pmenus} INFO BOT`, rowId: ".info", description: "Menampilkan kecepatan respon MikAzu BOT"},
+	    {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner MikAzu BOT"},
 	    {title: `📔 ${pmenus} SCRIPT BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
 	{title: `📮 ${pmenus} RULES BOT`, rowId: ".rules", description: `Peraturan menggunakan ${namebot}`},
-	{title: `🗣️ ${pmenus} REQUEST FITUR`, rowId: ".request", description: "Request fitur Fangz BOT"},
+	{title: `🗣️ ${pmenus} REQUEST FITUR`, rowId: ".request", description: "Request fitur MikAzu Bot"},
 	]
     },{
 	title: `${htki} SUPPORT ${htka}`,
@@ -240,7 +240,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `🌐 ${pmenus} WEBSITE`, rowId: ".website", description: 'Jangan lupa mampir'},
 	]
 	},{
-	title: `${htki} MENU FANGZ BOT${htka}`,
+	title: `${htki} MENU MIKAZU MD${htka}`,
 	rows: [
 	    {title: `『💬』 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
 	    {title: `『🌱』 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
@@ -299,14 +299,14 @@ let tek = `*✧${ucapan()} ${conn.getName(m.sender)}*
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 
 
-               「 *Fangz BOT あ⁩* 」
+               「 *MIKAZU BOT あ⁩* 」
 `
 const listMessage = {
   text: tek,
-  footer: 'By https://fangzbot.websites.co.in/\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕',
+  footer: 'By https://bit.ly/3c0WJz9\n\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕',
   mentions: await conn.parseMention(tek),
-  title: `${htki} *LIST MENU* ${htka}`,
-  buttonText: `FANGZ BOT MENU`,
+  title: `${htki} *PENCET BG* ${htka}`,
+  buttonText: `MIKAZU MENU`,
   sections
 }
   if (teks == '404') {
@@ -511,35 +511,35 @@ const listMessage = {
             fileLength: fsizedoc,
             pageCount: fpagedoc,
             caption: text,
-            footer: titlebot + '\n⚡ Supported By Fangz TEAM',
+            footer: titlebot + '\nYT : MikAzu 929',
             templateButtons: [
                 {
                     urlButton: {
-                        displayText: `${namebot}`,
-                        url: 'https://s.id/Fangzganz'
+                        displayText: `🏅YOUTUBE🏛`,
+                        url: 'https://bit.ly/3c0WJz9'
                     }
                 },
                 {
                     urlButton: {
-                        displayText: 'Group Official',
+                        displayText: '🏛GROUP MIKAZU🏛',
                         url: sgc
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Owner',
+                        displayText: '😎OWNER😎',
                         id: '.owner'
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Speed',
+                        displayText: '🚀SPEED🚀,
                         id: '.ping'
                     }
                 },
                 {
                     quickReplyButton: {
-                        displayText: 'Donasi',
+                        displayText: '💰DONASI💰',
                         id: '.donasi'
                     }
                 },
