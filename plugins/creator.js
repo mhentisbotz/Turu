@@ -21,18 +21,18 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-*💌 Nama* : Fangz
-*✉️ Nama RL* : FangzBOT
+*💌 Nama* : Asyraf
+*✉️ Nama RL* : MikAzu
 *♂️ Gender* : Laki - laki
 *🕋 Agama* : Islam
-*⏰ Tanggal lahir* : 25 oktober 2007
-*🎨 Umur* : 15
-*🧮 Kelas* : 9
-*🧩 Hobby* : Nonton henta*, main game, Recode script
-*💬 Sifat* : Baik, hode, softboy, tydack ramah, g*y
+*⏰ Tanggal lahir* : 30 September 2006
+*🎨 Umur* : 18
+*🧮 Kelas* : 11
+*🧩 Hobby* : main game, Recode script, Buat Script, Belajar Ilmu
+*💬 Sifat* : Baik, Ganteng, G Beban, Pinter
 *🗺️ Tinggal* : Indonesia, jawa, bogor
-*❤️ Suka* : warnah pink & hitam, trap, waifu wangy, kucing
-*💔 Benci* : anak alay, autis, anak epep, sok asik
+*❤️ Suka* : Nonton Donghua, Belajar Ilmu Coding
+*💔 Benci* : anak alay, autis, anak epep, sok asik, Bocah
 
 *- - sᴋɪʟʟs: - -* 
 > JavaScript [70.7%]
@@ -45,11 +45,10 @@ let teksbio = `${htki} *BIODATA* ${htka}
 ───────[ SOSIAL MEDIA ]───────
 
 📷 *Instagram:* ${sig}
-🐈 *Github:* ${sgh}
+🐈 *Github:* Private
 🥏 *Whatsapp* wa.me/${nomorown}
 🌐 *Discord:* Soon
-🌏 *Website:* https://fangzbot.websites.co.in/
-🎶 *Tiktok:* tiktok.com/@fangzjb
+🌏 *Youtube :* https://bit.ly/3c0WJz9
 
 `
   let teks = ' '
@@ -104,7 +103,7 @@ const listMessage = {
           break
 
         default:
-          return conn.sendButton( m.chat, caption, wm, null, [`⋮☰ Menu`, `.menu`], m)
+          return conn.sendButton( m.chat, caption, wm, null, [`MENU MIKAZU`, `.menu`], m)
       }
     }
   } catch (err) {
