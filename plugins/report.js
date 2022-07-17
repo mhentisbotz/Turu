@@ -8,7 +8,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
             mentionedJid: [m.sender]
         }
     })
-    m.reply(`'_Pesan terkirim kepemilik bot, jika ${command.toLowerCase()} hanya main-main tidak akan ditanggapi.\n\nJangan lupa cek info di https://fangzbot.websites.co.in/'_`)
+    m.reply(`'_Pesan terkirim kepemilik bot, jika ${command.toLowerCase()} hanya main-main tidak akan ditanggapi.\n\nJangan lupa Subscribe di https://bit.ly/3c0WJz9'_`)
 }
 handler.help = ['report', 'request'].map(v => v + ' <teks>')
 handler.tags = ['info']
