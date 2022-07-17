@@ -10,7 +10,7 @@ const anu = {
                         },
        message: {
                     documentMessage: {
-                    title: 'FANGZ BOT', 
+                    title: 'MikAzu 929', 
                     jpegThumbnail: './thumbnail.jpg'
                           }
                         }
